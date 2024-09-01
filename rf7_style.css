@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background-color: #397A3C;
+  display: flex;
+  justify-content: left;
+  font-size: 11px;
+  color: white;
+  padding: 1.2em;
+}
+
+header h1 {
+  margin-left: 1em;
+}
