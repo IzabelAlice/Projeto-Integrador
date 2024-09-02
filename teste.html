@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizar Botão</title>
+    <style>
+        .container {
+            position: relative; /* Torna o contêiner um ponto de referência para o botão */
+            width: 300px; /* Largura da div */
+            height: 200px; /* Altura da div */
+            border: 1px solid #ccc; /* Apenas para visualização */
+            background-color: #f9f9f9; /* Apenas para visualização */
+            display: flex; /* Ativa o layout flexbox */
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
+            flex-direction: column; /* Opcional: alinha os itens verticalmente, útil se você tiver mais de um botão */
+        }
+
+        .button {
+            padding: 10px 20px; /* Tamanho do botão */
+            background-color: #007bff; /* Cor de fundo */
+            color: white; /* Cor do texto */
+            border: none; /* Remove a borda padrão */
+            border-radius: 5px; /* Bordas arredondadas */
+            cursor: pointer; /* Muda o cursor para indicar um clique */
+        }
+        
+        .top-right-button {
+            position: absolute; /* Remove o botão do fluxo normal do documento */
+            top: 10px; /* Ajuste conforme necessário */
+            right: 10px; /* Ajuste conforme necessário */
+            padding: 10px 20px; /* Ajuste conforme necessário */
+            background-color: #007bff; /* Cor do fundo */
+            color: white; /* Cor do texto */
+            border: none; /* Remove a borda padrão */
+            border-radius: 5px; /* Bordas arredondadas */
+            cursor: pointer; /* Muda o cursor para indicar um clique */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="top-right-button">Clique Aqui</button>
+        <button class="button">Enviar Arquivo</button>
+    </div>
+</body>
+</html>

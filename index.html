@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8">
@@ -10,41 +10,43 @@
 
 <body>
   <header>
-    <img src="imagens/seta voltar.svg">
+    <a href="">
+      <img src="imagens/seta voltar.svg">
+    </a>
     <h1>Editar turma</h1>
   </header>
   <main>
     <div id="editar_placa">
-      <button><img src="imagens/botão editar.svg"></button>
-      <button>
-        <img src="imagens/botão editar.svg" alt="botão de editar">
+      <button class="botao_editar"><img src="imagens/botão editar.svg"></button>
+      <button id="btarquivo">
+        <img src="imagens/botão  pra abrir arquivo.svg " alt="botão de editar">
         <h2>ANEXAR PLACA</h2>
       </button>
     </div>
-    <div>
+    <div id="nome_turma">
       <a href="">
         <h2>Editar nome da turma</h2>
-        <button>
+        <button class="botao_editar">
           <img src="imagens/botão editar.svg" alt="botão de editar">
         </button>
       </a>
     </div>
     <hr>
-    <div id="editar_lista_alunos" >
+    <div class="listas">
       <a href="">
-        <img src="imagens/Group 76.png">
+        <img src="imagens/Group 76.svg" id="representacaoalunos">
         <h3>Editar lista de alunos</h3>
-        <img src="imagens/setinha aleatoria _D.svg">
+        <img src="imagens/setinha aleatoria _D.svg" class="setinhaaleatoria">
       </a>
     </div>
-    <div id="editar_lista_profs">
+    <div class="listas">
       <a href="">
-        <img src="imagens/icone lista de professores.svg">
+        <img src="imagens/icone lista de professores.svg" id="representacaoprofessores">
         <h3>Editar lista de professores</h3>
-        <img src="imagens/setinha aleatoria _D.svg">
+        <img src="imagens/setinha aleatoria _D.svg" class="setinhaaleatoria">
       </a>
     </div>
-    <a href="">
+    <a href="" id="confirmatarbt">
       <button>
         <h2>Confirmar</h2>
       </button>
