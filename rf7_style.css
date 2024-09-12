@@ -25,8 +25,8 @@ div#editar_placa{
   width: 320px;
   height: 200px;
   margin: 0 auto;
-  margin-top: 1.5em;
-  margin-bottom: 2em;
+  margin-top: 3em;
+  margin-bottom: 2.8em;
   display: flex; /* Ativa o layout flexbox */
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
